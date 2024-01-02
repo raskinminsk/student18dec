@@ -1,0 +1,357 @@
+    1  sudo -s
+    2  df -h
+    3  python3 --version
+    4  ip a
+    5  ping 8.8.8.8
+    6  ip a
+    7  id
+    8  host
+    9  hostname
+   10  i p a
+   11  ip a
+   12  apt-cache search openssh
+   13  apt install openssh-server
+   14  apt update
+   15  sudo apt update
+   16  sudo apt upgrade
+   17  sudo apt install openssh-server
+   18  ip a
+   19  sudo reload
+   20  sudo reboot
+   21  sudo -s
+   22  pwd
+   23  ll
+   24  ls -al .ssh/
+   25  cd .ssh
+   26  ls -a
+   27  history
+   28  traceroute 8.8.8.8
+   29  sudo apt install inetutils-traceroute
+   30  traceroute 8.8.8.8
+   31  exit
+   32  sudo -s
+   33  exit
+   34  id
+   35  ssh-keygen -t rsa -b 4096
+   36  cd .ssh
+   37  ls -al
+   38  cat id_rsa.pub 
+   39  ls -al
+   40  cd .
+   41  ll
+   42  cd ..
+   43  ll
+   44  mkdir git_my
+   45  cd git_my/
+   46  ll
+   47  git --version
+   48  cd ..
+   49  ll
+   50  git config -l
+   51  git config --global user.name "raskinminsk"
+   52  git config --global user.email "raskin.minsk@gmail.com"
+   53  git config -l
+   54  ll
+   55  cd git_my/
+   56  history
+   57  git status
+   58  git init
+   59  git remote add origin git@github.com:raskinminsk/test.git
+   60  git pull
+   61  ls -al
+   62  дд
+   63  ll
+   64  touch firt_file.txt
+   65  git add .
+   66  git status
+   67  git commit -m "#1 first file"
+   68  git status
+   69  git push -u origin main
+   70  ll
+   71  rm firt_file.txt 
+   72  ll
+   73  git status
+   74  git add .
+   75  git commit -m "#2 deleted first file"
+   76  git status
+   77  git config -l
+   78  history | grep git
+   79  git remote --help
+   80  git remote -V
+   81  git remote -v
+   82  git config -l
+   83  touch hello.txt
+   84  git status
+   85  git add .
+   86  git status
+   87  git commit -m "#3 add hello.txt"
+   88  git status
+   89  git config -l
+   90  git remote -v
+   91  ll
+   92  git status
+   93  git remote -v
+   94  git push origin main
+   95  history | grep git
+   96  git remote add origin https://github.com/raskinminsk/test.git
+   97  cd ..
+   98  ll
+   99  ls -al git_my/
+  100  rm -rf git_my/
+  101  git config -l
+  102  ll
+  103  git config -l
+  104  ll
+  105  history
+  106  mkdir gitwrk && cd gitwrk
+  107  ll
+  108  git init
+  109  git branch
+  110  ls -al
+  111  ls .git
+  112  history
+  113  git status
+  114  touch hello_wrd.txt
+  115  git status
+  116  git add .
+  117  git status
+  118  git commit -m "#1 first commit"
+  119  git status
+  120  git branch
+  121  git branch --help
+  122  git branch -m master main
+  123  git branch
+  124  git status
+  125  git remote add test git@github.com:raskinminsk/test.git
+  126  git remote -v
+  127  git branch
+  128  git push test main
+  129  git pull main test
+  130  git pull
+  131  git pull(1)
+  132  git pull (1)
+  133  git-pull(1)
+  134  git push --help
+  135  pwd
+  136  cd ..
+  137  pwd
+  138  ll
+  139  rm -rf gitwrk/
+  140  git config -l
+  141  git remote -v
+  142  ll
+  143  mkdir student18
+  144  cd student18/
+  145  ll
+  146  pwd
+  147  echo "# student18dec" >> README.md
+  148  git init
+  149  git status
+  150  git add README.md
+  151  git status
+  152  git commit -m "first commit"
+  153  git status
+  154  git branch
+  155  git branch -M main
+  156  git branch
+  157  git remote add origin git@github.com:raskinminsk/fork_test.git
+  158  git remote -v
+  159  cd ..
+  160  ll
+  161  rm -rf student18
+  162  ll
+  163  mkdir student18dec
+  164  cd student18dec/
+  165  ll
+  166  echo "# student18dec" >> README.md
+  167  git init
+  168  git add README.md 
+  169  git commit -m "first commit"
+  170  git branch
+  171  git branch -M main
+  172  git branch
+  173  git remote add origin git@github.com:raskinminsk/student18dec.git
+  174  git remote -v
+  175  git push -u origin main
+  176  history
+  177  touch hello.txt
+  178  git status
+  179  git add .
+  180  git status
+  181  git commit -m "second commit"
+  182  git push
+  183  ll
+  184  nano hello.txt 
+  185  cat hello.txt 
+  186  git status
+  187  git add .
+  188  git status
+  189  git commit -m "#3 change hello.txt file"
+  190  git push
+  191  python3 --version
+  192  pip --version
+  193  pip3 --version
+  194  exit
+  195  df -h
+  196  df -hT
+  197  nmtui
+  198  git --version
+  199  sudo hostname
+  200  sudo -s
+  201  exit
+  202  PWD
+  203  pwd
+  204  ll
+  205  history
+  206  git clone git@github.com:Otus-DevOps-2023-11/raskinminsk_infra.git
+  207  ll
+  208  cd raskinminsk_infra/
+  209  ll
+  210  git branch
+  211  git checkout -b play-travis
+  212  git branch
+  213  pip --version
+  214  pip3 --version
+  215  ll
+  216  mkdir .github
+  217  cd .github/
+  218  ll
+  219  wget http://bit.ly/otus-pr-template -O PULL_REQUEST_TEMPLATE.md
+  220  ll
+  221  cat PULL_REQUEST_TEMPLATE.md 
+  222  nano PULL_REQUEST_TEMPLATE.md 
+  223  exit
+  224  python --version
+  225  python3 --version
+  226  which python3
+  227  python --version
+  228  update-alternatives --install /usr/bin/python python /usr/bin/python3 2
+  229  sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 2
+  230  python --version
+  231  pwd
+  232  ll
+  233  wget https://bootstrap.pypa.io/get-pip.py
+  234  ll
+  235  sudo python3 get-pip.py
+  236  pip --version
+  237  ll
+  238  cd raskinminsk_infra/
+  239  pwd
+  240  ll
+  241  pip --version
+  242  pip install pre-commit
+  243  pre-commit --version
+  244  sudo apt install pre-commit
+  245  history
+  246  pre-commit --version
+  247  wget https://gist.githubusercontent.com/mrgreyves/1244bf4f5bd7e23464b2c410e205c12b/raw/497f930689cd1b48d60e4ea44d3286a81ddaea52/pre-commit-config.yaml
+  248  ll
+  249  cat pre-commit-config.yaml 
+  250  git branch
+  251  ll
+  252  ls -al .github/
+  253  pre-commit install
+  254  git status
+  255  ll
+  256  git add .
+  257  git status
+  258  git commit -m 'Add PR template'
+  259  ll
+  260  rm pre-commit-config.yaml .pre-commit-config.yaml
+  261  ll
+  262  wget https://gist.githubusercontent.com/mrgreyves/1244bf4f5bd7e23464b2c410e205c12b/raw/497f930689cd1b48d60e4ea44d3286a81ddaea52/pre-commit-config.yaml -O .pre-commit-config.yaml
+  263  ll
+  264  history
+  265  pre-commit install
+  266  git status
+  267  git add .
+  268  history
+  269  git status
+  270  git commit -m 'Add PR template'
+  271  git add .
+  272  git commit -m 'Add PR template'
+  273  git branch
+  274  git push --set-upstream origin play-travis
+  275  ll
+  276  mkdir play-travis
+  277  cd play-travis/
+  278  wget https://raw.githubusercontent.com/express42/otus-snippets/master/hw-04/test.py
+  279  ll
+  280  cd ..
+  281  ll
+  282  git status
+  283  ls -al play-travis/
+  284  git add .
+  285  git status
+  286  history
+  287  git status
+  288  git commit -m 'Play-travis'
+  289  git log
+  290  git status
+  291  git add .
+  292  git status
+  293  git commit -m 'Play-travis'
+  294  history
+  295  git push --set-upstream origin play-travis
+  296  ll
+  297  cd .github
+  298  ll
+  299  pwd
+  300  wget https://gist.githubusercontent.com/mrgreyves/d8815bcb7e00a2f0b26d0e0a48c5563b/raw/f4a76a7842f6c7cd5e428db6b33938fb1dffcbf4/auto_assign.yml
+  301  ll
+  302  mkdir workflows
+  303  cd workflows/
+  304  wget https://gist.githubusercontent.com/mrgreyves/6103584b9beac6025ac7226b4788935c/raw/d0f348e5633c9548dd1d826dd719694df28b3fca/auto-assign.yml
+  305  wget https://gist.githubusercontent.com/mrgreyves/077d8f72dd229d1283493c0c2b8ca050/raw/be0c92ebf57c2aebd5be8ba27f6072680faf1539/devops-2023-11.yaml -O run-tests.yml
+  306  ll
+  307  cd ..
+  308  ll
+  309  pwd
+  310  cd ..
+  311  ll
+  312  git add .
+  313  git status
+  314  git commit -m 'Add workflows'
+  315  git add .
+  316  git status
+  317  git log'
+exit
+  318  git log'
+exit
+  319  git log'
+exit
+  320  git log
+  321  git commit -m 'Add workflows 2'
+  322  history
+  323  git push --set-upstream origin play-travis
+  324  ll
+  325  find . 
+  326  ll
+  327  cd play-travis/
+  328  ll
+  329  cat test.py 
+  330  ll
+  331  pwd
+  332  cd ..
+  333  ll
+  334  find . -name "te*"
+  335  pwd
+  336  ll
+  337  cd play-travis/
+  338  ll
+  339  nano test.py 
+  340  cat test.py 
+  341  cd ..
+  342  ll
+  343  git status
+  344  git add .
+  345  git status
+  346  git commit -m 'test.py modif'
+  347  history
+  348  git push --set-upstream origin play-travis
+  349  git status
+  350  LL
+  351  ll
+  352  cd ..
+  353  ll
+  354  history > history_raskin_18dec2023.txt

@@ -1,0 +1,586 @@
+    1  sudo -s
+    2  df -h
+    3  python3 --version
+    4  ip a
+    5  ping 8.8.8.8
+    6  ip a
+    7  id
+    8  host
+    9  hostname
+   10  i p a
+   11  ip a
+   12  apt-cache search openssh
+   13  apt install openssh-server
+   14  apt update
+   15  sudo apt update
+   16  sudo apt upgrade
+   17  sudo apt install openssh-server
+   18  ip a
+   19  sudo reload
+   20  sudo reboot
+   21  sudo -s
+   22  pwd
+   23  ll
+   24  ls -al .ssh/
+   25  cd .ssh
+   26  ls -a
+   27  history
+   28  traceroute 8.8.8.8
+   29  sudo apt install inetutils-traceroute
+   30  traceroute 8.8.8.8
+   31  exit
+   32  sudo -s
+   33  exit
+   34  id
+   35  ssh-keygen -t rsa -b 4096
+   36  cd .ssh
+   37  ls -al
+   38  cat id_rsa.pub 
+   39  ls -al
+   40  cd .
+   41  ll
+   42  cd ..
+   43  ll
+   44  mkdir git_my
+   45  cd git_my/
+   46  ll
+   47  git --version
+   48  cd ..
+   49  ll
+   50  git config -l
+   51  git config --global user.name "raskinminsk"
+   52  git config --global user.email "raskin.minsk@gmail.com"
+   53  git config -l
+   54  ll
+   55  cd git_my/
+   56  history
+   57  git status
+   58  git init
+   59  git remote add origin git@github.com:raskinminsk/test.git
+   60  git pull
+   61  ls -al
+   62  дд
+   63  ll
+   64  touch firt_file.txt
+   65  git add .
+   66  git status
+   67  git commit -m "#1 first file"
+   68  git status
+   69  git push -u origin main
+   70  ll
+   71  rm firt_file.txt 
+   72  ll
+   73  git status
+   74  git add .
+   75  git commit -m "#2 deleted first file"
+   76  git status
+   77  git config -l
+   78  history | grep git
+   79  git remote --help
+   80  git remote -V
+   81  git remote -v
+   82  git config -l
+   83  touch hello.txt
+   84  git status
+   85  git add .
+   86  git status
+   87  git commit -m "#3 add hello.txt"
+   88  git status
+   89  git config -l
+   90  git remote -v
+   91  ll
+   92  git status
+   93  git remote -v
+   94  git push origin main
+   95  history | grep git
+   96  git remote add origin https://github.com/raskinminsk/test.git
+   97  cd ..
+   98  ll
+   99  ls -al git_my/
+  100  rm -rf git_my/
+  101  git config -l
+  102  ll
+  103  git config -l
+  104  ll
+  105  history
+  106  mkdir gitwrk && cd gitwrk
+  107  ll
+  108  git init
+  109  git branch
+  110  ls -al
+  111  ls .git
+  112  history
+  113  git status
+  114  touch hello_wrd.txt
+  115  git status
+  116  git add .
+  117  git status
+  118  git commit -m "#1 first commit"
+  119  git status
+  120  git branch
+  121  git branch --help
+  122  git branch -m master main
+  123  git branch
+  124  git status
+  125  git remote add test git@github.com:raskinminsk/test.git
+  126  git remote -v
+  127  git branch
+  128  git push test main
+  129  git pull main test
+  130  git pull
+  131  git pull(1)
+  132  git pull (1)
+  133  git-pull(1)
+  134  git push --help
+  135  pwd
+  136  cd ..
+  137  pwd
+  138  ll
+  139  rm -rf gitwrk/
+  140  git config -l
+  141  git remote -v
+  142  ll
+  143  mkdir student18
+  144  cd student18/
+  145  ll
+  146  pwd
+  147  echo "# student18dec" >> README.md
+  148  git init
+  149  git status
+  150  git add README.md
+  151  git status
+  152  git commit -m "first commit"
+  153  git status
+  154  git branch
+  155  git branch -M main
+  156  git branch
+  157  git remote add origin git@github.com:raskinminsk/fork_test.git
+  158  git remote -v
+  159  cd ..
+  160  ll
+  161  rm -rf student18
+  162  ll
+  163  mkdir student18dec
+  164  cd student18dec/
+  165  ll
+  166  echo "# student18dec" >> README.md
+  167  git init
+  168  git add README.md 
+  169  git commit -m "first commit"
+  170  git branch
+  171  git branch -M main
+  172  git branch
+  173  git remote add origin git@github.com:raskinminsk/student18dec.git
+  174  git remote -v
+  175  git push -u origin main
+  176  history
+  177  touch hello.txt
+  178  git status
+  179  git add .
+  180  git status
+  181  git commit -m "second commit"
+  182  git push
+  183  ll
+  184  nano hello.txt 
+  185  cat hello.txt 
+  186  git status
+  187  git add .
+  188  git status
+  189  git commit -m "#3 change hello.txt file"
+  190  git push
+  191  python3 --version
+  192  pip --version
+  193  pip3 --version
+  194  exit
+  195  df -h
+  196  df -hT
+  197  nmtui
+  198  git --version
+  199  sudo hostname
+  200  sudo -s
+  201  exit
+  202  PWD
+  203  pwd
+  204  ll
+  205  history
+  206  git clone git@github.com:Otus-DevOps-2023-11/raskinminsk_infra.git
+  207  ll
+  208  cd raskinminsk_infra/
+  209  ll
+  210  git branch
+  211  git checkout -b play-travis
+  212  git branch
+  213  pip --version
+  214  pip3 --version
+  215  ll
+  216  mkdir .github
+  217  cd .github/
+  218  ll
+  219  wget http://bit.ly/otus-pr-template -O PULL_REQUEST_TEMPLATE.md
+  220  ll
+  221  cat PULL_REQUEST_TEMPLATE.md 
+  222  nano PULL_REQUEST_TEMPLATE.md 
+  223  exit
+  224  python --version
+  225  python3 --version
+  226  which python3
+  227  python --version
+  228  update-alternatives --install /usr/bin/python python /usr/bin/python3 2
+  229  sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 2
+  230  python --version
+  231  pwd
+  232  ll
+  233  wget https://bootstrap.pypa.io/get-pip.py
+  234  ll
+  235  sudo python3 get-pip.py
+  236  pip --version
+  237  ll
+  238  cd raskinminsk_infra/
+  239  pwd
+  240  ll
+  241  pip --version
+  242  pip install pre-commit
+  243  pre-commit --version
+  244  sudo apt install pre-commit
+  245  history
+  246  pre-commit --version
+  247  wget https://gist.githubusercontent.com/mrgreyves/1244bf4f5bd7e23464b2c410e205c12b/raw/497f930689cd1b48d60e4ea44d3286a81ddaea52/pre-commit-config.yaml
+  248  ll
+  249  cat pre-commit-config.yaml 
+  250  git branch
+  251  ll
+  252  ls -al .github/
+  253  pre-commit install
+  254  git status
+  255  ll
+  256  git add .
+  257  git status
+  258  git commit -m 'Add PR template'
+  259  ll
+  260  rm pre-commit-config.yaml .pre-commit-config.yaml
+  261  ll
+  262  wget https://gist.githubusercontent.com/mrgreyves/1244bf4f5bd7e23464b2c410e205c12b/raw/497f930689cd1b48d60e4ea44d3286a81ddaea52/pre-commit-config.yaml -O .pre-commit-config.yaml
+  263  ll
+  264  history
+  265  pre-commit install
+  266  git status
+  267  git add .
+  268  history
+  269  git status
+  270  git commit -m 'Add PR template'
+  271  git add .
+  272  git commit -m 'Add PR template'
+  273  git branch
+  274  git push --set-upstream origin play-travis
+  275  ll
+  276  mkdir play-travis
+  277  cd play-travis/
+  278  wget https://raw.githubusercontent.com/express42/otus-snippets/master/hw-04/test.py
+  279  ll
+  280  cd ..
+  281  ll
+  282  git status
+  283  ls -al play-travis/
+  284  git add .
+  285  git status
+  286  history
+  287  git status
+  288  git commit -m 'Play-travis'
+  289  git log
+  290  git status
+  291  git add .
+  292  git status
+  293  git commit -m 'Play-travis'
+  294  history
+  295  git push --set-upstream origin play-travis
+  296  ll
+  297  cd .github
+  298  ll
+  299  pwd
+  300  wget https://gist.githubusercontent.com/mrgreyves/d8815bcb7e00a2f0b26d0e0a48c5563b/raw/f4a76a7842f6c7cd5e428db6b33938fb1dffcbf4/auto_assign.yml
+  301  ll
+  302  mkdir workflows
+  303  cd workflows/
+  304  wget https://gist.githubusercontent.com/mrgreyves/6103584b9beac6025ac7226b4788935c/raw/d0f348e5633c9548dd1d826dd719694df28b3fca/auto-assign.yml
+  305  wget https://gist.githubusercontent.com/mrgreyves/077d8f72dd229d1283493c0c2b8ca050/raw/be0c92ebf57c2aebd5be8ba27f6072680faf1539/devops-2023-11.yaml -O run-tests.yml
+  306  ll
+  307  cd ..
+  308  ll
+  309  pwd
+  310  cd ..
+  311  ll
+  312  git add .
+  313  git status
+  314  git commit -m 'Add workflows'
+  315  git add .
+  316  git status
+  317  git log'
+  318  exit
+  319  git log'
+  320  exit
+  321  git log'
+  322  exit
+  323  git log
+  324  git commit -m 'Add workflows 2'
+  325  history
+  326  git push --set-upstream origin play-travis
+  327  ll
+  328  find . 
+  329  ll
+  330  cd play-travis/
+  331  ll
+  332  cat test.py 
+  333  ll
+  334  pwd
+  335  cd ..
+  336  ll
+  337  find . -name "te*"
+  338  pwd
+  339  ll
+  340  cd play-travis/
+  341  ll
+  342  nano test.py 
+  343  cat test.py 
+  344  cd ..
+  345  ll
+  346  git status
+  347  git add .
+  348  git status
+  349  git commit -m 'test.py modif'
+  350  history
+  351  git push --set-upstream origin play-travis
+  352  git status
+  353  LL
+  354  ll
+  355  cd ..
+  356  ll
+  357  history > history_raskin_18dec2023.txt
+  358  sudo -s
+  359  ll
+  360  exit
+  361  PWD
+  362  pwd
+  363  sudo -s
+  364  history
+  365  history | grep git
+  366  ll
+  367  history | grep git > history_raskin_grep_git_18dec2023.txt
+  368  less history_raskin_grep_git_18dec2023.txt
+  369  git branch
+  370  ll
+  371  cd raskinminsk_infra/
+  372  git branch
+  373  git checkout main
+  374  git branch
+  375  cd ..
+  376  ll
+  377  less history_raskin_grep_git_18dec2023.txt 
+  378  more history_raskin_grep_git_18dec2023.txt 
+  379  cd raskinminsk_infra/
+  380  ll
+  381  git branch
+  382  git checkout -b cloud-bastion
+  383  cd cloud-bastion
+  384  git branch
+  385  exit
+  386  pwd
+  387  ll
+  388  sudo poweroff
+  389  man ssh-keygen
+  390  ssh-keygen --help
+  391  sudo -s
+  392  sudo poweroff
+  393  history
+  394  ll
+  395  cd raskinminsk_infra/
+  396  ll
+  397  git branch
+  398  cd ..
+  399  ll
+  400  pwd
+  401  ls -al .ssh/
+  402  ssh-keygen -t rsa -f ~/.ssh/appuser -C appuser -P ""
+  403  ls -al .ssh/
+  404  ll
+  405  cd .ssh
+  406  ll
+  407  cat appuser.pub
+  408  cat id_rsa.pub
+  409  pwd
+  410  cd ..
+  411  ll
+  412  ssh -i ~/.ssh/appuser appuser@178.154.202.169
+  413  ssh-add --help
+  414  man ssh-add
+  415  ssh-add -L
+  416  man ssh-add
+  417  ssh-agent --help
+  418  exit
+  419  pwd
+  420  ls -al .ssh/
+  421  ssh-add -L
+  422  ssh-add ~/.ssh/appuser
+  423  ssh-agent bash
+  424  ssh-add ~/.ssh/appuser
+  425  ssh-add -L
+  426  ssh -i ~/.ssh/appuser -A appuser@178.154.202.169
+  427  sudo reboot
+  428  ssh-add -L
+  429  exit
+  430  pwd
+  431  history
+  432  ssh -i ~/.ssh/appuser -A appuser@178.154.202.169
+  433  ps -aux
+  434  ps -aux | grep ssh-agent
+  435  ssh-add -L
+  436  ssh-agent bash
+  437  ssh-add -L
+  438  history
+  439  ssh-agent bash
+  440  ssh-add -L
+  441  ssh-add ~/.ssh/appuser
+  442  ssh-add -L
+  443  ssh -i ~/.ssh/appuser -A appuser@178.154.202.169
+  444  lsb_release -cs
+  445  sudo poweroff
+  446  tee --help
+  447  pwd
+  448  ll .ssh/
+  449  ssh-agent
+  450  ssh-add -l
+  451  ssh-agent
+  452  ssh-add -l
+  453  ll
+  454  less .bashrc 
+  455  systemctl --help
+  456  systemctl list-untit-files | grep ssh
+  457  systemctl list-unnit-files | grep ssh
+  458  systemctl list-unit-files | grep ssh
+  459  sudo poweroff
+  460  ll
+  461  ll .profile 
+  462  sudo poweroff
+  463  pwd
+  464  man ssh
+  465  ll
+  466  sudo -s
+  467  history
+  468  ll
+  469  history > history_raskin_24dec2023.txt
+  470  history
+  471  ll
+  472  cp .bashrc .bashrc-24dec2023
+  473  ll
+  474  history
+  475  alias --help
+  476  alias ssh_bastion = ssh -i ~/.ssh/appuser -A appuser@178.154.202.169
+  477  alias ssh_bastion=ssh -i ~/.ssh/appuser -A appuser@178.154.202.169
+  478  history
+  479  ssh-add -L
+  480  ssh-agent -s
+  481  ssh-add ~/.ssh/appuser
+  482  ll
+  483  ll .ssh/
+  484  ssh-agent bash
+  485  history | grep ssh
+  486  ssh-add -L
+  487  ssh-add ~/.ssh/appuser
+  488  ssh-add -L
+  489  ssh -i ~/.ssh/appuser -A appuser@178.154.202.169
+  490  ip a
+  491  history
+  492  man alias
+  493  alias --help
+  494  alias -p
+  495  alias ssh_bastion='ssh -i ~/.ssh/appuser -A appuser@178.154.202.169'
+  496  ssh_bastion
+  497  ll
+  498  nano .bashrc
+  499  tail .bashrc
+  500  sudo poweroff
+  501  apt update
+  502  sudo apt update
+  503  sudo apt upgrade
+  504  ll
+  505  cat > ssh_bastion < EOF
+  506  cat ssh_bastion<EOF
+  507  cat >ssh_bastion <EOF
+  508  ll
+  509  cat <<EOF> ssh_bastion.sh
+  510  ssh-agent bash
+  511  ssh-add ~/.ssh/appuser
+  512  ssh-add -L
+  513  alias ssh_bastion='ssh -i ~/.ssh/appuser -A appuser@178.154.202.169'
+  514  EOF
+  515  ll
+  516  cat ssh_bastion
+  517  cat ssh_bastion.sh 
+  518  rm ssh_bastion
+  519  ll
+  520  chmod 700 ssh_bastion.sh 
+  521  ll
+  522  nano ssh_bastion.sh 
+  523  cat ssh_bastion.sh 
+  524  echo $SHELL
+  525  ll
+  526  ssh_bastion.sh
+  527  bash ssh_bastion.sh
+  528  ssh-add -L
+  529  nano ssh_bastion.sh 
+  530  ssh_bastion.sh 
+  531  nano ssh_bastion.sh 
+  532  echo $SHELL
+  533  alias -p
+  534  eval $(ssh-agent -s)
+  535  ssh-add -L
+  536  ssh-add ~/.ssh/appuser
+  537  ssh-add -L
+  538  echo $?
+  539  sudo poweroff
+  540  ll
+  541  nano ssh_bastion.sh
+  542  more ssh_bastion.sh
+  543  ll
+  544  ssh_bastion.sh
+  545  .ssh_bastion.sh
+  546  ./ssh_bastion.sh
+  547  nano ssh_bastion.sh
+  548  ./ssh_bastion.sh
+  549  ssh_bastion
+  550  alias -p
+  551  ssh-add -L
+  552  sudo poweroff
+  553  eval $(ssh-agent -s)
+  554  ssh-add ~/.ssh/appuser&&ssh-add -L
+  555  ssh -i ~/.ssh/appuser -A appuser@178.154.202.169
+  556  sudo poweroff
+  557  history
+  558  ll
+  559  nano .bashrc
+  560  ssh-agent -h
+  561  man ssh-agent
+  562  nano .bashrc
+  563  less .bashrc
+  564  sudo poweroff
+  565  ssh-add -L
+  566  ll
+  567  ll .ssh/
+  568  cd .ssh
+  569  ll
+  570  touch config
+  571  ll
+  572  nano config
+  573  cat config
+  574  ssh bastion
+  575  sudo poweroff
+  576  SSH-ADD -l
+  577  ssh-add -L
+  578  ssh bastion
+  579  sudo poweroff
+  580  ssh-add -L
+  581  ssh bastion
+  582  sudo poweroff
+  583  ssh bastion
+  584  sudo poweroff
+  585  ll
+  586  history > history_raskin_26dec2023.txt

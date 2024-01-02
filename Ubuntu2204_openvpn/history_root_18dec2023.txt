@@ -1,0 +1,17 @@
+    1  passwd raskin
+    2  exit
+    3  poweroff
+    4  python --version
+    5  python3 --version
+    6  python --version
+    7  python3 --version
+    8  exit
+    9  hostname
+   10  cd ..
+   11  ll
+   12  apt install git
+   13  git --version
+   14  cd raskin
+   15  su raskin
+   16  exit
+   17  history > history_root_18dec2023.txt
