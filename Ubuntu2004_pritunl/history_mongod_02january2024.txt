@@ -1,0 +1,17 @@
+  235  apt list --installed | grep mongo
+  250  apt list | grep ^mongo*
+  252  sudo wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
+  254  sudo echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+  255  sudo apt update && sudo apt install -y pritunl mongodb-org
+  259  apt list --installed | grep ^mongo*
+  260  systemctl status pritunl mongodb
+  262  systemctl status mongodb
+  263  systemctl status mongod
+  265  systemctl status pritunl mongod
+  266  systemctl enable pritunl mongod
+  267  sudo systemctl enable pritunl mongod
+  268  sudo start mongod pritunl
+  269  sudo systemctl start mongod pritunl
+  270  sudo systemctl status mongod pritunl
+  285  history | grep mongod
+  286  history | grep mongo > history_mongod_02january2024.txt

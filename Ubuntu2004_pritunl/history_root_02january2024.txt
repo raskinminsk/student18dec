@@ -1,0 +1,1000 @@
+ 1001  cd ..
+ 1002  man ss
+ 1003  ls -al /etc/h*
+ 1004  cd etc
+ 1005  cd /etc
+ 1006  cp hosts{,.backup}
+ 1007  ls -al h*
+ 1008  nano hosts
+ 1009  cat hosts
+ 1010  ssh raskin@raskinlinux.fvds.ru
+ 1011  umount /dev/sdb4
+ 1012  ps -ef | grep /dev/sdb4
+ 1013  ps -ef
+ 1014  ls -al i*
+ 1015  ls -al
+ 1016  cd .ssh
+ 1017  ls -al
+ 1018  find / -name "*www*" -ls
+ 1019  cd ..
+ 1020  cp /mnt/VM_WWW/index_www.tar.gz .
+ 1021  ls -al in*
+ 1022  tar -tf index_www.tar.gz
+ 1023  ssh raskin@raskinlinux.fvds.ru
+ 1024  su raskin
+ 1025  mount 
+ 1026  mount | grep /dev
+ 1027  umount /dev/sdb4
+ 1028  lsof /dev/sdb4
+ 1029  kill -9 2246
+ 1030  lsof /dev/sdb4
+ 1031  umount /dev/sdb4
+ 1032  lsof /dev/sdb4
+ 1033  kill -9 2234
+ 1034  lsof /dev/sdb4
+ 1035  kill -9 1770
+ 1036  lsof /dev/sdb4
+ 1037  umount /dev/sdb4
+ 1038  mount | grep /dev
+ 1039  ls -al
+ 1040  pwd
+ 1041  cd www
+ 1042  cd /home/raskin
+ 1043  ls -al
+ 1044  cd .ssh
+ 1045  ls -al
+ 1046  nano config
+ 1047  ssh raskin@raskinlinux.fvds.ru
+ 1048  ssh raskinlinux.fvds.ru
+ 1049  su raskin
+ 1050  cd ..
+ 1051  clear
+ 1052  egrep --help
+ 1053  clear
+ 1054  egrep -c '(vmx|svm)' /proc/cpuinfo
+ 1055  egrep '(vmx|svm)' /proc/cpuinfo
+ 1056  cat /proc/cpuinfo
+ 1057  egrep '(vmx|svm)' /proc/cpuinfo
+ 1058  cat /proc/cpuinfo | grep vmx
+ 1059  cat /proc/cpuinfo | grep svm
+ 1060  kvm-ok
+ 1061  apt -y install cpu-checker
+ 1062  kvm-ok
+ 1063  ьфт дыьщв
+ 1064  man lsmod
+ 1065  man lsblk
+ 1066  man blkid
+ 1067  man gpasswd
+ 1068  man wget
+ 1069  df -h
+ 1070  man w
+ 1071  w
+ 1072  exit
+ 1073  cd ..
+ 1074  ps -u raskin
+ 1075  ptop
+ 1076  ps -ef
+ 1077  ps -u raskin
+ 1078  ps -axu raskin
+ 1079  ps aux
+ 1080  ps -ef
+ 1081  kill -9 1383
+ 1082  htop
+ 1083  ps -ef
+ 1084  kill -9 1618
+ 1085  kill -9 1619
+ 1086  kill -9 1620
+ 1087  kill -9 1621
+ 1088  ps -ef
+ 1089  ps -eF
+ 1090  ps -ef
+ 1091  htop
+ 1092  cd .ssh
+ 1093  ls -al
+ 1094  cat id_rsa.pub
+ 1095  cat /etc/hosts
+ 1096  ssh root@91.240.85.22
+ 1097  man find
+ 1098  id raskin
+ 1099  cat /etc/passwd | less
+ 1100  su remotevds
+ 1101  man find
+ 1102  cd ..
+ 1103  visdh -V
+ 1104  virsh -V
+ 1105  apt search virsh
+ 1106  egrep 'vmx|svm|0xc0f' /proc/cpuinfo
+ 1107  egrep -c 'vmx|svm|0xc0f' /proc/cpuinfo
+ 1108  grep -c 'vmx|svm|0xc0f' /proc/cpuinfo
+ 1109  grep 'vmx|svm|0xc0f' /proc/cpuinfo
+ 1110  egrep 'vmx|svm|0xc0f' /proc/cpuinfo
+ 1111  lsmod | grep kvm
+ 1112  systemctl status libvirt
+ 1113  systemctl list-unit-files | grep libvirt
+ 1114  systemctl list-unit-files | grep ssh
+ 1115  apt show libvirt
+ 1116  apt search libvirt
+ 1117  cd ..
+ 1118  top
+ 1119  atop
+ 1120  apt install atop
+ 1121  atop
+ 1122  clear
+ 1123  atop -r
+ 1124  iotop
+ 1125  apt install iotop
+ 1126  iotop
+ 1127  iotop help
+ 1128  man iotop
+ 1129  tail -22 /var/log/syslog
+ 1130  tail /var/log/syslog
+ 1131  tail -f -22 /var/log/syslog
+ 1132  tail -f -n 22 /var/log/syslog
+ 1133  date
+ 1134  history | grep ssh
+ 1135  ssh raskin@raskinlinux.fvds.ru
+ 1136  su raskin
+ 1137  history | grep for
+ 1138  history | grep <
+ 1139  history | grep "<"
+ 1140  history | grep "\<"
+ 1141  tee --help
+ 1142  find /proc -name "swappi*" -ls
+ 1143  cat /proc/sys/vm/swappiness
+ 1144  free -m
+ 1145  free
+ 1146  ls -al /proc/sys/vm
+ 1147  ls -al /proc/sys/vm | less
+ 1148  cat /proc/sys/vm/admin_reserve_kbytes 
+ 1149  cat /proc/sys/vm/swappiness
+ 1150  cat /etc/sysctl.conf 
+ 1151  cat /proc/sys/vm/admin_reserve_kbytes 
+ 1152  cat /proc/sys/vm/vfs_cache_pressure 
+ 1153  find / -name "*tuner"
+ 1154  cd ..
+ 1155  swapon --show
+ 1156  fallocate --help
+ 1157  partprobe --help
+ 1158  netstat
+ 1159  netstat -tun
+ 1160  netstat -tuna
+ 1161  netstat --help
+ 1162  nmap
+ 1163  netstat -tuna
+ 1164  nmap 127.0.0.53
+ 1165  nmap --help
+ 1166  man nmap
+ 1167  nmap 127.0.0.53
+ 1168  netstat -tuna
+ 1169  nmap --help
+ 1170  шасщташп
+ 1171  ifconfig
+ 1172  nmap 192.168.253.131
+ 1173  lsof -i
+ 1174  man fuser
+ 1175  fuser 22/tcp
+ 1176  fuser 2007/tcp
+ 1177  fuser -v 2007/tcp
+ 1178  fuser 2007/tcp
+ 1179  ps 5417
+ 1180  history | grep ssh
+ 1181  history | grep sshd
+ 1182  su raskin
+ 1183  cat /etc/os-release 
+ 1184  docker -v
+ 1185  cat /etc/issue
+ 1186  whereis figlet
+ 1187  figlet
+ 1188  apt  install figlet
+ 1189  figlet 'Hello from RASKIN'
+ 1190  figlet --help
+ 1191  man figlet
+ 1192  ls -al /etc/apt/k*
+ 1193  ls -al /etc/apt
+ 1194  ls -al /etc/apt/keyrings/
+ 1195  pwd
+ 1196  cd /etc/apt
+ 1197  ls -al
+ 1198  cp sources.list sources.list.13aug2023
+ 1199  ls -al
+ 1200  cat sources.list
+ 1201  cat sources.list | grep -v ^#
+ 1202  ls -al
+ 1203  date
+ 1204  cat sources.list | grep docker
+ 1205  ls -al /etc/apt/keyrings/
+ 1206  ls -al /etc/apt/keyrings/docker.gpg 
+ 1207  apt-key add /etc/apt/keyrings/docker.gpg
+ 1208  lsb_release -cs
+ 1209  cat sources.list | grep docker
+ 1210  cat sources.list | grep -v ^#
+ 1211  cd ..
+ 1212  apt show docker
+ 1213  docker --help
+ 1214  docker -v
+ 1215  cd ~
+ 1216  apt update
+ 1217  apt list --upgradable
+ 1218  apt install ca-certificates curl gnupg
+ 1219  install -m 0755 -d /etc/apt/keyrings
+ 1220  history | grep curl
+ 1221  whereis curl
+ 1222  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+ 1223  chmod a+r /etc/apt/keyrings/docker.gpg
+ 1224  echo "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+ 1225  "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1226  ршыещкн
+ 1227  history
+ 1228  apt update
+ 1229  apt list --upgradable
+ 1230  clear
+ 1231  history
+ 1232  apt show gnupg
+ 1233  apt install apt-transport-https \gnupg-agent software-properties-common
+ 1234  add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+ 1235  $(lsb_release -cs) \
+ 1236  stable"
+ 1237  apt-cache --help
+ 1238  apt-cache madison docker-ca
+ 1239  apt-cache madison docker-ce
+ 1240  apt install docker-ce=5:19.03.15~3-0~ubuntu-focal docker-ce-cli=5:19.03.15~3-0~ubuntu-focal containerd.io
+ 1241  docker -v
+ 1242  docker version
+ 1243  docker run hello-world
+ 1244  docker image ls
+ 1245  docker container ls
+ 1246  docker container ls -a
+ 1247  docker image ls
+ 1248  ckear
+ 1249  clear
+ 1250  systemctl status docker
+ 1251  systemctl status dockerd
+ 1252  systemctl list-units | grep docker
+ 1253  cd ~
+ 1254  htop
+ 1255  top
+ 1256  docker container ls
+ 1257  docker container ls -a
+ 1258  docker image ls
+ 1259  docker image ls -a
+ 1260  df -h
+ 1261  docker image ls -a
+ 1262  docker container ls -a
+ 1263  docker container ls
+ 1264  df -h
+ 1265  docker container ls
+ 1266  docker ps -a
+ 1267  docker ps
+ 1268  docker ps -s
+ 1269  docker image ls -a
+ 1270  docker ps
+ 1271  docker container inspect rsk_nginx
+ 1272  docker container -f logs rsk_nginx
+ 1273  docker container logs rsk_nginx -f
+ 1274  docker ps
+ 1275  docker ps -a
+ 1276  docker ps -q
+ 1277  docker ps
+ 1278  docker contain
+ 1279  docker container stop rsk_nginx
+ 1280  docker ps
+ 1281  docker kill rsk_util
+ 1282  docker ps
+ 1283  docker container start rsk_util rsk_nginx
+ 1284  docker ps
+ 1285  docker container rm $(docker -q)
+ 1286  docker ps
+ 1287  docker container rm rsk_util
+ 1288  docker container stop $(docker -q)
+ 1289  docker container stop $(docker ps -q)
+ 1290  docker ps
+ 1291  docker ps -a
+ 1292  docker ps -aq
+ 1293  docker image -a
+ 1294  docker image ls
+ 1295  docker ps -aq
+ 1296  docker ps -a
+ 1297  docker ps -aq
+ 1298  docker container rm $(docker ps -aq)
+ 1299  docker container ls
+ 1300  docker container ls -a
+ 1301  clear
+ 1302  docker container iner ls
+ 1303  docker container ls
+ 1304  docker container ls -a
+ 1305  docker image ls
+ 1306  docker image ls -a
+ 1307  docker container create --name rsk_util centosadmin/utils:0.3
+ 1308  docker container start rsk_util
+ 1309  docker image ls -a
+ 1310  docker image ls
+ 1311  docker container ls -a
+ 1312  docker container ls
+ 1313  docker container run -it --rm -p 80:80 centos:8
+ 1314  docker run --name rsk_nginx -d -p 80:80 centosadmin/reloadable-nginx:1.13
+ 1315  tail -f /var/log/auth.log
+ 1316  ss -tlpn
+ 1317  ss -tulpn
+ 1318  netstat -tlpn
+ 1319  nginx --help
+ 1320  apropos port
+ 1321  man ports
+ 1322  man port
+ 1323  port --help
+ 1324  find / -name "rsk_*" -ls | less
+ 1325  find / -name rsk_* -ls
+ 1326  find / -name 'rsk_*' -ls
+ 1327  docker version
+ 1328  clear
+ 1329  docker image ls
+ 1330  docker image -h
+ 1331  docker image 
+ 1332  docker image ls
+ 1333  docker image inspect hello-world
+ 1334  clear
+ 1335  echo $(pwd)
+ 1336  pwd
+ 1337  cd ~
+ 1338  pwd
+ 1339  echo $(pwd)
+ 1340  echo ${pwd}
+ 1341  cd /usr/games/docker_app
+ 1342  ls -al
+ 1343  rm -rf GIT
+ 1344  ls -al
+ 1345  find .
+ 1346  ls -al
+ 1347  find .
+ 1348  ls -al
+ 1349  cd /
+ 1350  ls -al
+ 1351  ls -al /opt
+ 1352  ls -al /home
+ 1353  ls -al
+ 1354  ls -al /usr
+ 1355  ls -al /usr/games
+ 1356  cd /usr/games
+ 1357  ls -al
+ 1358  mkdir docker_app
+ 1359  cd  docker_app
+ 1360  pwd
+ 1361  ls -al
+ 1362  xs GIT/
+ 1363  cd GIT/
+ 1364  ls -al
+ 1365  rm -f '????? ?????'
+ 1366  rm -rf '????? ?????'
+ 1367  ls -al
+ 1368  rm -f '11_5 GIT ????????.rar'
+ 1369  ls -al
+ 1370  find . -ls
+ 1371  cat ./backend/Dockerfile
+ 1372  find . -ls
+ 1373  cat ./compose.yaml
+ 1374  find . -ls
+ 1375  mv -r * ..
+ 1376  mv -R * ..
+ 1377  cp -r * /usr/games/docker_app/
+ 1378  cd ..
+ 1379  ls -al
+ 1380  find .
+ 1381  docker -v
+ 1382  cat ./compose.yaml | less
+ 1383  more ./compose.yaml
+ 1384  ls -al
+ 1385  docker compose up -d
+ 1386  docker-compose up -d
+ 1387  apt  install docker-compose
+ 1388  pwd
+ 1389  docker-compose --help
+ 1390  docker-compose up -d
+ 1391  find .
+ 1392  cat .docker/docker-compose.yaml
+ 1393  cp .docker/docker-compose.yaml .
+ 1394  ls -al
+ 1395  cat docker-compose.yaml
+ 1396  docker-compose up -d
+ 1397  ls -al
+ 1398  cd .docker/
+ 1399  docker 
+ 1400  docker-
+ 1401  docker-compose up -d
+ 1402  cd ..
+ 1403  ls -al
+ 1404  cd docker-compose.yaml{,.bkp}
+ 1405  cp docker-compose.yaml{,.bkp}
+ 1406  ls -al
+ 1407  rm docker-compose.yaml
+ 1408  mv compose.yaml docker-compose.yaml
+ 1409  ls -al
+ 1410  rm docker-compose.yaml.bkp
+ 1411  ls -al
+ 1412  docker-compose up -d
+ 1413  docker-compose
+ 1414  docker-compose -v
+ 1415  apt update
+ 1416  cat apt list --upgradable
+ 1417  apt list --upgradable
+ 1418  ls -al
+ 1419  docker compose up -d
+ 1420  cd ~
+ 1421  clear
+ 1422  lsblk
+ 1423  ls /media
+ 1424  cd /media
+ 1425  pwd
+ 1426  history | grep mount
+ 1427  mount /dev/sdb1 /media
+ 1428  ls
+ 1429  ls -al
+ 1430  pwd
+ 1431  find .
+ 1432  ls -al
+ 1433  id
+ 1434  umount /dev/sdb1
+ 1435  ls -al
+ 1436  ls -al /mnt
+ 1437  cd /mnt
+ 1438  ls -al
+ 1439  pwd
+ 1440  lsblk
+ 1441  mount -t fat /dev/sdb1 /mnt
+ 1442  mount /dev/sdb1 /mnt
+ 1443  ls -al
+ 1444  man mount
+ 1445  history
+ 1446  umount /dev/sdb1
+ 1447  mount -t vfat /dev/sdb1 /mnt
+ 1448  pwd
+ 1449  ls -al
+ 1450  find / -name "GIT" -ls
+ 1451  ls -al /mnt/GIT
+ 1452  cd ..
+ 1453  ls -al
+ 1454  cd /mnt/GIT
+ 1455  ls -al
+ 1456  cd ..
+ 1457  ls -al
+ 1458  cp -r GIT /usr/games/docker_app/
+ 1459  cd GIT/
+ 1460  ls -al
+ 1461  cp -r .docker/ /usr/games/docker_app/
+ 1462  cd ..
+ 1463  touch tttt.txt
+ 1464  nano tttt.txt
+ 1465  cat tttt.txt
+ 1466  cat tttt.txt | awk '{print $NF}' | grep nginx-golang
+ 1467  cat tttt.txt | awk '{print $NF}'
+ 1468  nano tttt.txt
+ 1469  cat tttt.txt | awk '{print $NF}'
+ 1470  cat tttt.txt | awk '{print $NF}'| grep nginx-golang
+ 1471  passwd raskin
+ 1472  env
+ 1473  exit
+ 1474  env
+ 1475  exit
+ 1476  echo $HOSTNAME
+ 1477  HOSTNAME=VM_ubuntu20
+ 1478  export HOSTNAME
+ 1479  echo $HOSTNAME
+ 1480  env
+ 1481  exit
+ 1482  env
+ 1483  echo $HOSTNAME
+ 1484  history
+ 1485  history | grep git
+ 1486  history
+ 1487  history | grep ssh
+ 1488  ssh raskin@raskinlinux.fvds.ru
+ 1489  dump -h
+ 1490  whereis dump
+ 1491  apt search dump
+ 1492  apt search dump | grep ^dump
+ 1493  apt-get search dump | grep ^dump
+ 1494  apt update 
+ 1495  apt search dump | grep ^dump
+ 1496  apt install dump
+ 1497  dump --help
+ 1498  dump -h
+ 1499  man dump
+ 1500  pwd
+ 1501  ls -al
+ 1502  find .
+ 1503  cd ..
+ 1504  find .
+ 1505  find . -ls
+ 1506  find . -size -1M -ls
+ 1507  find . -size -5M -ls
+ 1508  find . -size -2M -ls
+ 1509  find . -size +2M -ls
+ 1510  find . -size +1M -ls
+ 1511  find . -size 1M -ls
+ 1512  find . -size +1000 -ls
+ 1513  find . -size -1000 -ls
+ 1514  find . -size -100 -ls
+ 1515  find . -size -10 -ls
+ 1516  find . -size -10k -ls
+ 1517  find . -size -10 -ls
+ 1518  find . -size -10K -ls
+ 1519  find . -size -1K -ls
+ 1520  find . -size -1k -ls
+ 1521  find . -size -10k -ls
+ 1522  find . -size -50k -ls
+ 1523  find . -size -20k -ls
+ 1524  find . -size -2k -ls
+ 1525  find . -size +2k -ls
+ 1526  find . -name "*.txt" -size +2k -ls
+ 1527  find . -name "*.txt" -size -2k -ls
+ 1528  find . -name "*.txt" -size -5k -ls
+ 1529  find . -name "*.txt" -size -2k -ls
+ 1530  find . -name "*.txt" -size -2k -exec cat {}\; 
+ 1531  find . -type f -name "*.txt" -size -2k -exec cat {}\; 
+ 1532  find . -type f -name "*.txt" -size -2k -exec cat {} \; 
+ 1533  find . -type f -name "*.txt" -size -2k 
+ 1534  find . -type f -name "ra*.txt" -size -2k 
+ 1535  find . -type f -name "ra*.txt" -size -2k -exec rm {} \;
+ 1536  find . -type f -name "ra*.txt" -size -2k 
+ 1537  find . -type f -name "*.txt" -size -2k 
+ 1538  find . -type f -name "*.txt" -size -2k -ls 
+ 1539  find . -type f -name "*.txt" -size -900 -ls 
+ 1540  find . -type f -name "*.txt" -size -900b -ls 
+ 1541  find . -type f -name "*.txt" -size -90 -ls 
+ 1542  find . -type f -name "*.txt" -size -9 -ls 
+ 1543  find . -type f -name "*.txt" -size -1k -ls 
+ 1544  find . -type f -name "*.txt" -size -1024 -ls 
+ 1545  find . -type f -name "*.txt" -size -1.2k -ls 
+ 1546  find . -type f -name "*.txt" -size -1,2k -ls 
+ 1547  find . -type f -name "*.txt" -size -2k -ls 
+ 1548  find . -type f -name "*.txt" -size -2k -ls -exec {} \;
+ 1549  find . -type f -name "*.txt" -size -2k -exec {} \;
+ 1550  id
+ 1551  find . -type f -name "*.txt" -size -2k -ls
+ 1552  find . -type f -name "*.txt" -size -2k -exec cat {} \;
+ 1553  find . -type f -name "*.txt" -size -900B -ls
+ 1554  man find
+ 1555  find . -type f -name "*.txt" -size -900c -ls
+ 1556  find . -type f -name "*.txt" -size -500c -ls
+ 1557  find . -type f -name "*.txt" -size -500c -ls -exec {} \;
+ 1558  find . -type f -name "*.txt" -size -500c -ls -exec cat {} \;
+ 1559  find . -type f -name "*.txt" -size -300c -ls -exec cat {} \;
+ 1560  find . -type f -name "*.txt" -size -200c -ls -exec cat {} \;
+ 1561  find . -type f -name "*.txt" -size -100c -ls -exec cat {} \;
+ 1562  find . -type f -name "*.txt" -size -100c -ls
+ 1563  find . -type f -name "*.txt" -size -50c -ls
+ 1564  cat ./Greetings.txt
+ 1565  find . -type f -name "*.txt" -size -50c -exec cat {} \;
+ 1566  find . -type f -name "*.txt" -size -50c -ls -exec cat {} \;
+ 1567  cd etc
+ 1568  cd /etc
+ 1569  ls -al p*
+ 1570  ls -ald p*
+ 1571  ls -al | less
+ 1572  ls -alf
+ 1573  ls -al -type f
+ 1574  ls -h
+ 1575  ls --help
+ 1576  cd ..
+ 1577  history | grep useradd
+ 1578  history | grep adduser
+ 1579  ls -al
+ 1580  ls -alL
+ 1581  ls -lL
+ 1582  ls --help
+ 1583  cd /dev
+ 1584  ls lL
+ 1585  ls -al
+ 1586  ls -al | less
+ 1587  ls -lL
+ 1588  ls -lL | less
+ 1589  ls -lL | more
+ 1590  ls -l | more
+ 1591  ls -lL | more
+ 1592  ls -l | more
+ 1593  ls -lL | more
+ 1594  ls -l | more
+ 1595  ls -al | more
+ 1596  ls -lL | more
+ 1597  cd ..
+ 1598  ls -al /etc/default/grub
+ 1599  cat /etc/default/grub
+ 1600  info -f grub -n 'Simple configuration'
+ 1601  cat /etc/default/grub
+ 1602  ls -al /boot/grub
+ 1603  ls -al /etc/default
+ 1604  ls -al /boot/grub
+ 1605  ls -al /etc/default/grub
+ 1606  ls -al /boot
+ 1607  cat /boot/grub/grub.cfg
+ 1608  ls -al /etc/default/grub
+ 1609  cat /etc/default/grub
+ 1610  ls -al /etc/default
+ 1611  cat /etc/default/useradd 
+ 1612  ls -al /bin/s*
+ 1613  ls -al /bin/sh*
+ 1614  ls -al /bin/d*
+ 1615  c ..
+ 1616  cd ..
+ 1617  ls /etc/grub.d/
+ 1618  ls -al /etc/grub.d/
+ 1619  less /etc/grub.d/05_debian_theme 
+ 1620  cd /etc/
+ 1621  ls init*
+ 1622  ls -al init*
+ 1623  ls -ald init*
+ 1624  ls -al init* | less
+ 1625  ls -al | less
+ 1626  ls -al init.d/
+ 1627  ls /run/systemd/system
+ 1628  ls -al /run/systemd/system
+ 1629  ls -al /run/systemd/system/systemd-networkd.service.wants/
+ 1630  ls -al /sbin/init
+ 1631  ps -rf
+ 1632  ps -ef
+ 1633  ps -ef | head
+ 1634  ps aux | head
+ 1635  ps -eF | head
+ 1636  ps -aF | head
+ 1637  ps -p 1
+ 1638  cat /proc/1/comm
+ 1639  pstree -p
+ 1640  pstree -p | head
+ 1641  pstree -p | less
+ 1642  pstree -p 1
+ 1643  systemctl
+ 1644  systemctl | wc -l
+ 1645  systemctl --all | wc -l
+ 1646  systemctl list-unit-files | wc -l
+ 1647  systemctl list-unit-files
+ 1648  systemctl --all
+ 1649  systemctl
+ 1650  systemctl --all
+ 1651  systemctl list-unit-files
+ 1652  systemctl --help
+ 1653  ls -al /usr/lib/systemd/system
+ 1654  ls -al /lib/systemd/system
+ 1655  ls -al /usr/lib/systemd/system | less
+ 1656  ls -al /lib/systemd/system | less
+ 1657  man 7 signal
+ 1658  history | grep useradd
+ 1659  useradd tester
+ 1660  id tester
+ 1661  ls -al /home
+ 1662  userdel tester
+ 1663  history | grep useradd
+ 1664  history | grep usermod
+ 1665  history | grep ^user
+ 1666  history | grep ^user*
+ 1667  history | less 
+ 1668  ls -al /etc/default/useradd 
+ 1669  cat /etc/default/useradd 
+ 1670  ls -ald /home
+ 1671  ls -ald /home/
+ 1672  cd /home
+ 1673  ls -ald
+ 1674  ls -ld
+ 1675  ls -d
+ 1676  ls 
+ 1677  useradd testman
+ 1678  ls 
+ 1679  userdel testman
+ 1680  history
+ 1681  useradd -D
+ 1682  man usermod
+ 1683  history | grep usermod
+ 1684  clear
+ 1685  stat /usr/sbin/adduser
+ 1686  pwck
+ 1687  pwck -q
+ 1688  cat /etc/sudoers
+ 1689  man sudoers
+ 1690  clear
+ 1691  su --help
+ 1692  man su
+ 1693  cd /
+ 1694  cd /etc
+ 1695  ls -al sudoers.d/
+ 1696  less sudoers.d/README 
+ 1697  cd /home
+ 1698  mkdir -m 700 lesson/2023/august
+ 1699  mkdir -m 700 /home/lesson/2023/august
+ 1700  mkdir -p -m 700 /home/lesson/2023/august
+ 1701  ls -al 
+ 1702  ls -al l8
+ 1703  ls -al l*
+ 1704  tree lesson/
+ 1705  ls -al lesson/2023/august/
+ 1706  ls -al lesson/2023/
+ 1707  rm -r lesson/
+ 1708  ls -al l*
+ 1709  touch less1
+ 1710  chmod 1770 less1
+ 1711  ls -al l3*
+ 1712  ls -al le*
+ 1713  mkdir -m 1770 LESS1
+ 1714  ls -al le*
+ 1715  ls -al LE*
+ 1716  ls -al
+ 1717  rm less1 
+ 1718  rm LESS1/
+ 1719  rmdir LESS1/
+ 1720  ls -al
+ 1721  touch bkpfile
+ 1722  ls a-l | less
+ 1723  ls -al | less
+ 1724  chmod -v 4750 bkpfile
+ 1725  rm bkpfile
+ 1726  cat bkpfile
+ 1727  ls -al
+ 1728  cd ..
+ 1729  ls -al
+ 1730  find . -name a*.txt > file_bkp.txt; cat file_bkp.txt
+ 1731  find . -name "a*.txt" > file_bkp.txt; cat file_bkp.txt
+ 1732  find . -name "a*.txt" -ls
+ 1733  find . -name "a*.txt" -ls >> file_bkp.txt; cat file_bkp.txt
+ 1734  find . -name "a*.txt" -ls > file_bkp.txt; cat file_bkp.txt
+ 1735  find . -name "a*.txt" > file_bkp.txt; cat file_bkp.txt
+ 1736  find . -name "a*.txt" > file_bkp.txt; cat file_bkp.txt; for i in file_bkp.txt; do cat i; done
+ 1737  find . -name "a*.txt" > file_bkp.txt; cat file_bkp.txt; for i in file_bkp.txt; do echo i; done
+ 1738  find . -name "a*.txt" > file_bkp.txt; cat file_bkp.txt; for i in file_bkp.txt; do echo $i; done
+ 1739  find . -name "a*.txt" > file_bkp.txt; cat file_bkp.txt; for i in $(file_bkp.txt); do echo $i; done
+ 1740  echo $(file_bkp.txt)
+ 1741  echo $(./file_bkp.txt)
+ 1742  echo file_bkp.txt
+ 1743  find . -name "a*.txt" > file_bkp.txt; cat file_bkp.txt; for i in `cat file_bkp.txt`; do echo $i; done
+ 1744  find . -name "a*.txt" > file_bkp.txt; for i in `cat file_bkp.txt`; do echo $i; done
+ 1745  find . -name "a*.txt" > file_bkp.txt; \cat file_bkp.txt; for i in `cat file_bkp.txt`; do echo $i; done
+ 1746  find . -name "a*.txt" > file_bkp.txt; \ cat file_bkp.txt; for i in `cat file_bkp.txt`; do echo $i; done
+ 1747  find . -name "a*.txt" > file_bkp.txt; cat file_bkp.txt; for i in `cat file_bkp.txt`; do echo $i; done
+ 1748  find . -name "a*.txt" > file_bkp.txt; cat file_bkp.txt > -; for i in -; do echo $i; done
+ 1749  find . -name "a*.txt" > file_bkp.txt; cat file_bkp.txt > - | for i in -; do echo $i; done
+ 1750  clear
+ 1751  cp --help
+ 1752  mkdir folder_bkp
+ 1753  cp a*.txt folder_bkp/
+ 1754  ls -al folder_bkp/
+ 1755  ls -al a*.txt
+ 1756  ls -al
+ 1757  cp t*.txt folder_bkp/
+ 1758  ls -al folder_bkp/
+ 1759  cp -au t*.txt folder_bkp/
+ 1760  ls -al folder_bkp/
+ 1761  rm folder_bkp/t*.txt
+ 1762  ls -al folder_bkp/
+ 1763  cp -au t*.txt folder_bkp/
+ 1764  ls -al folder_bkp/
+ 1765  mkdir folderNN && cp -au ./folder_bkp  folderNN/
+ 1766  ls -al folderNN/
+ 1767  rm -rf folderNN
+ 1768  rm -rf folder_bkp
+ 1769  ls -al
+ 1770  history
+ 1771  lsblk
+ 1772  blkid
+ 1773  clear
+ 1774  lshw
+ 1775  lshw | head
+ 1776  lshw | head -22
+ 1777  lshw | head -44
+ 1778  lshw | head -35
+ 1779  lsinfo
+ 1780  lspci | less
+ 1781  lscpu | less
+ 1782  lsusb | less
+ 1783  lsusb 
+ 1784  lshw | less
+ 1785  lsblk
+ 1786  lshw --short
+ 1787  lshw -short
+ 1788  lsblk -l
+ 1789  lsblk
+ 1790  lsblk -S
+ 1791  lsblk -f /dev/sda
+ 1792  whereis umount
+ 1793  whereis unmount
+ 1794  lsblk
+ 1795  blkid
+ 1796  mount
+ 1797  clear
+ 1798  lsblk
+ 1799  dmesg | grep sda
+ 1800  dmesg | grep sda1
+ 1801  dmesg | grep sda2
+ 1802  dmesg | grep sda3
+ 1803  tune2fs --help
+ 1804  man tune2fs
+ 1805  lsblk
+ 1806  dumpe2fs -h /dev/sda3
+ 1807  dumpe2fs -h /dev/sda1
+ 1808  dumpe2fs -h /dev/sda2
+ 1809  ls -al /etc/ssh/
+ 1810  ls -al /etc/se*
+ 1811  less /etc/services
+ 1812  echo $XDG_SESSION_TYPE
+ 1813  cd ..
+ 1814  ssh --help
+ 1815  man ssh
+ 1816  cd ..
+ 1817  ps ax
+ 1818  ps ax | grep -w ntp -w chrony -w timesyncd
+ 1819  ps ax | grep -w ntp
+ 1820  timedatectl status
+ 1821  grep --help
+ 1822  timedatectl status
+ 1823  ps ax | grep -w ntp
+ 1824  ps ax | grep -w ntp | grep -v grep
+ 1825  ps ax | grep -w timesyncd
+ 1826  ls -al /etc/localtime 
+ 1827  ls -al /usr/share/zoneinfo/Etc
+ 1828  ls -al /usr/share/zoneinfo
+ 1829  ls -al /usr/share/zoneinfo/Europe/
+ 1830  dmesg | less
+ 1831  cd /var/log
+ 1832  ls -al
+ 1833  dmesg | grep -w sda
+ 1834  dmesg | grep -w sd
+ 1835  journalctl -r
+ 1836  journalctl -r | less
+ 1837  journalctl -ex | less
+ 1838  grep -ei authen /var/log
+ 1839  grep -ei ^auth /var/log
+ 1840  grep -i auth /var/log
+ 1841  ls -al | less
+ 1842  less auth.log
+ 1843  journalctl --list-boots
+ 1844  journalctl -r --list-boots
+ 1845  journalctl -b -1 | grep raskin
+ 1846  ls -al | less
+ 1847  less syslog
+ 1848  jornalctl -r | less
+ 1849  journalctl -r | less
+ 1850  less syslog
+ 1851  journalctl -r | less
+ 1852  less syslog 
+ 1853  cat /etc/systemd/journald.conf
+ 1854  ls -al | less
+ 1855  lm-sensors
+ 1856  smartctl -h
+ 1857  apt install smartmontools -y
+ 1858  systemctl status smartd.service
+ 1859  smartctl -h
+ 1860  lsblk
+ 1861  smartctl /dev/sda
+ 1862  smartctl -x /dev/sda
+ 1863  smartctl -h
+ 1864  top
+ 1865  cd ..
+ 1866  arping
+ 1867  httping
+ 1868  apt install arping; apt install httping
+ 1869  arping --help
+ 1870  man arping
+ 1871  httping
+ 1872  httping -h
+ 1873  httping --help
+ 1874  httping -V
+ 1875  httping -c4 -l -Gg www.oreilly.com
+ 1876  man hhtping
+ 1877  man httping
+ 1878  mtr --help
+ 1879  man mtr
+ 1880  history | grep apt
+ 1881  apt depends dump
+ 1882  apt depends arping
+ 1883  apt depends dump
+ 1884  cd ..
+ 1885  which find
+ 1886  whereis find
+ 1887  type find
+ 1888  type cd
+ 1889  clear
+ 1890  ip add
+ 1891  ls -al /etc/net*
+ 1892  cd /etc/network
+ 1893  ls -al
+ 1894  exit
+ 1895  cd ..
+ 1896  history | grep "<<"
+ 1897  history | grep "<"
+ 1898  history | grep date
+ 1899  cd ..
+ 1900  cd /etc
+ 1901  ls -al | less
+ 1902  ls -al init/
+ 1903  ls -al init.d/
+ 1904  ls -al | less
+ 1905  find /etc -name inittab
+ 1906  find / -name inittab -ls
+ 1907  ls -al
+ 1908  locale
+ 1909  ls -al rc/
+ 1910  ls -al | less
+ 1911  ls -al rc*
+ 1912  clear
+ 1913  history | grep systemctl
+ 1914  cd /home
+ 1915  man hier
+ 1916  man hier > man_hier_file_hieration_system.txt
+ 1917  uname -a
+ 1918  uname -r
+ 1919  uname -h
+ 1920  uname --help
+ 1921  uname -s
+ 1922  uname -v
+ 1923  uname -p
+ 1924  uname -o
+ 1925  uname -n
+ 1926  uname -r
+ 1927  uname -m
+ 1928  ls -al
+ 1929  ls -ald
+ 1930  ls -lad
+ 1931  ls -la
+ 1932  ls -d
+ 1933  ls -ld
+ 1934  ls -lad
+ 1935  ls d
+ 1936  ls -h
+ 1937  ls --help
+ 1938  ls -al
+ 1939  ls -al /proc
+ 1940  ls -al
+ 1941  ls -al .*
+ 1942  ls -ald .*
+ 1943  ls -ald .* | grep ^-
+ 1944  ls -ald .* | grep ^d
+ 1945  ls -ald .* | grep ^-
+ 1946  stat .bash_history
+ 1947  cd /etc
+ 1948  ls -al pass*
+ 1949  whatis passwd
+ 1950  type passwd
+ 1951  cd /usr/bin/passwd
+ 1952  cd /usr/bin
+ 1953  stat /usr/bin/passwd
+ 1954  history | grep useradd
+ 1955  history | grep adduser
+ 1956  cd ..
+ 1957  uname -a
+ 1958  uname -r
+ 1959  ls -al /etc/os*
+ 1960  cat /etc/os-release
+ 1961  ls -al /usr/lib/os-release
+ 1962  cat /usr/lib/os-release
+ 1963  strace -e open cat /usr/lib/os-release
+ 1964  strace -e open lsblk
+ 1965  man strace
+ 1966  clear
+ 1967  systemctl list-unit-files
+ 1968  systemctl list-unit-files | grep ftpd
+ 1969  systemctl list-unit-files | grep telnetd
+ 1970  systemctl list-unit-files | grep rlogind
+ 1971  systemctl list-unit-files | grep rexecd
+ 1972  passwd uzer
+ 1973  cd ..
+ 1974  history | grep ssh
+ 1975  exit
+ 1976  history | grep useradd
+ 1977  history | grep ssh-keygen
+ 1978  ls -al
+ 1979  ls -al .ssh
+ 1980  id
+ 1981  exit
+ 1982  lsb-release
+ 1983  lsb_release
+ 1984  cat /etc/os-release 
+ 1985  ping 8.8.8.8
+ 1986  ip a
+ 1987  cat /etc/os-release 
+ 1988  poweroff
+ 1989  ip a
+ 1990  systemctl status sshd
+ 1991  ss -ltn
+ 1992  last reboot
+ 1993  last reboot | less
+ 1994  history
+ 1995  history | less
+ 1996  history | grep apt
+ 1997  history | grep sudo
+ 1998  exit
+ 1999  id
+ 2000  history > history_root_02january2024.txt

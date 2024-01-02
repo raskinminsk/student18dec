@@ -1,0 +1,60 @@
+    9  sudo -s
+   12  sudo - i
+   15  sudo -s
+   17  sudo -i
+   19  sudo -s
+   52  sudo -s
+   59  sudo -s
+   60  sudo -s
+   77  sudo umount /mnt
+   79  sudo -s
+   80  sudo -s
+   82  sudo -s
+   84  sudo -s
+   88  sudo -s
+   91  sudo -s
+   98  sudo -s
+  100  sudo kill -9 1491
+  101  sudo htop
+  105  sudo find /etc -name 'hosts' -ls
+  113  sudo nano /etc/hosts
+  114  sudo cat /etc/hosts
+  115  sudo -s
+  122  sudo -s
+  126  sudo -i
+  128  sudo -s
+  138  sudo -i
+  139  sudo -s
+  140  sudo -i
+  142  sudo -s
+  143  sudo -i
+  144  sudo -i
+  145  sudo -s
+  146  sudo -i
+  148  sudo -i
+  149  sudo -s
+  157  sudo -s
+  162  sudo -s
+  164  sudo -s
+  165  sudo -i
+  166  sudo -s
+  175  sudo passwd raskin
+  186  sudo find /etc -name hosts
+  188  sudo -s
+  197  sudo poweroff
+  210  sudo ufw status
+  252  sudo wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
+  254  sudo echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+  255  sudo apt update && sudo apt install -y pritunl mongodb-org
+  257  sudo ufw status
+  267  sudo systemctl enable pritunl mongod
+  268  sudo start mongod pritunl
+  269  sudo systemctl start mongod pritunl
+  270  sudo systemctl status mongod pritunl
+  272  sudo pritunl setup-key
+  273  sudo pritunl default-password
+  274  sudo poweroff
+  276  sudo -s
+  277  history | grep sudo
+  278  history | grep sudo | less
+  280  history | grep sudo > history_sudo_02january2024.txt

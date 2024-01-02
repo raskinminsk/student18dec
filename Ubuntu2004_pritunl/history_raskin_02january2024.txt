@@ -1,0 +1,311 @@
+    1  pwd
+    2  ls -al
+    3  cd .ssh
+    4  ls -al
+    5  cat known_hosts
+    6  id
+    7  ssh-keygen -t rsa
+    8  ls -al
+    9  sudo -s
+   10  id
+   11  history
+   12  sudo - i
+   13  history
+   14  su - root
+   15  sudo -s
+   16  ssh 91.240.85.22
+   17  sudo -i
+   18  ssh 91.240.85.22
+   19  sudo -s
+   20  ls -al
+   21  cd .ssh
+   22  ls -al
+   23  cat id_rsa.pub
+   24  su remotevds
+   25  pwd
+   26  cd .ssh
+   27  ll
+   28  cat config
+   29  touch config
+   30  ll
+   31  nano config 
+   32  cat config 
+   33  ssh firstvds1
+   34  nano config
+   35  ssh firstvds1
+   36  nano config
+   37  ssh firstvds1
+   38  nano config
+   39  ssh remotevds@91.240.85.22
+   40  su - remotevds
+   41  history
+   42  ssh 91.240.85.22
+   43  id
+   44  ssh 91.240.85.22
+   45  ssh firstvds
+   46  ssh firstvds1
+   47  cd .ssh
+   48  pwd
+   49  ls -al
+   50  cat config
+   51  ssh firstvds1
+   52  sudo -s
+   53  history | grep ss
+   54  ssh firstvds1
+   55  mtr 91.240.85.22
+   56  mtr --help
+   57  mtr -w 91.240.85.22
+   58  mtr -e 91.240.85.22
+   59  sudo -s
+   60  sudo -s
+   61  history | grep ssh
+   62  ssh firstvds1
+   63  pwd
+   64  cd ..
+   65  ls -al i*
+   66  ls -al in*
+   67  pwd
+   68  cd raskin
+   69  ls -al in*
+   70  scp --help
+   71  man scp
+   72  ls -al in*
+   73  scp index_www.tar.gz raskinlinux.fvds.ru:/home/raskin
+   74  mount
+   75  mount | grep /mnt
+   76  umount /mnt
+   77  sudo umount /mnt
+   78  mount | grep /mnt
+   79  sudo -s
+   80  sudo -s
+   81  ssh raskinlinux.fvds.ru
+   82  sudo -s
+   83  ssh raskinlinux.fvds.ru
+   84  sudo -s
+   85  ssh raskinlinux.fvds.ru
+   86  cd var
+   87  cd /var
+   88  sudo -s
+   89  history | grep scp
+   90  ssh raskinlinux.fvds.ru
+   91  sudo -s
+   92  history
+   93  ssh raskinlinux.fvds.ru
+   94  history
+   95  ssh raskinlinux.fvds.ru
+   96  htop
+   97  w
+   98  sudo -s
+   99  </dev/zero head -c `free -m | grep Mem | awk '{print $7}'`m | tail &
+  100  sudo kill -9 1491
+  101  sudo htop
+  102  history
+  103  find /etc -name 'hosts' -ls | 
+  104  find /etc -name 'hosts' -ls
+  105  sudo find /etc -name 'hosts' -ls
+  106  cat /etc/hosts
+  107  pwd
+  108  cat /etc/hosts > etc_hosts.txt
+  109  ls -al
+  110  cd .ssh
+  111  ls -al
+  112  cat config
+  113  sudo nano /etc/hosts
+  114  sudo cat /etc/hosts
+  115  sudo -s
+  116  history
+  117  ssh raskinlinux.fvds.ru
+  118  cd .ssh
+  119  ls -al
+  120  cat known_hosts
+  121  ssh raskinlinux.fvds.ru
+  122  sudo -s
+  123  ssh raskinlinux.fvds.ru
+  124  history | grep for
+  125  history | grep counter
+  126  sudo -i
+  127  ssh raskinlinux.fvds.ru 
+  128  sudo -s
+  129  ssh raskinlinux.fvds.ru 
+  130  ssh raskinlinux.fvds.ru -p 2007
+  131  cd ~
+  132  pwd
+  133  cd .ssh
+  134  ls -al
+  135  nano config
+  136  cat config
+  137  ssh raskinlinux.fvds.ru
+  138  sudo -i
+  139  sudo -s
+  140  sudo -i
+  141  cd /
+  142  sudo -s
+  143  sudo -i
+  144  sudo -i
+  145  sudo -s
+  146  sudo -i
+  147  env
+  148  sudo -i
+  149  sudo -s
+  150  history
+  151  ssh raskinlinux.fvds.ru
+  152  exit
+  153  history
+  154  ssh raskinlinux.fvds.ru
+  155  history
+  156  ssh raskinlinux.fvds.ru
+  157  sudo -s
+  158  man dump
+  159  dump -h
+  160  apt install dump
+  161  apt-get search dump
+  162  sudo -s
+  163  exit
+  164  sudo -s
+  165  sudo -i
+  166  sudo -s
+  167  id
+  168  pwd
+  169  ls -al
+  170  ls -al .ssh/
+  171  cat .ssh/config 
+  172  history | grep ssh
+  173  history | grep config
+  174  id
+  175  sudo passwd raskin
+  176  ping 192.168.1.66
+  177  history
+  178  cat .ssh/config
+  179  id
+  180  ls -al
+  181  cd .ssh
+  182  ls -al
+  183  namo config 
+  184  nano config 
+  185  find /etc -name hosts
+  186  sudo find /etc -name hosts
+  187  cat /etc/hosts
+  188  sudo -s
+  189  ip a
+  190  w
+  191  os_release
+  192  lsb_release -cs
+  193  lsb_release -h
+  194  lsb_release -c
+  195  lsb_release -s
+  196  history
+  197  sudo poweroff
+  198  systemctl status ssh
+  199  ss -tlpn 
+  200  ss -tlp
+  201  ss -atlpn
+  202  man ss
+  203  ss -tlp
+  204  man ss
+  205  ss -atlp
+  206  apt-key -h
+  207  apt-key --help
+  208  ufw -h
+  209  ufw status
+  210  sudo ufw status
+  211  ll
+  212  wget -O https://iphwiki.net/files/pritunl_ubuntu20.04_install.sh
+  213  wget https://iphwiki.net/files/pritunl_ubuntu20.04_install.sh
+  214  ll
+  215  more pritunl_ubuntu20.04_install.sh
+  216  rm pritunl_ubuntu20.04_install.sh
+  217  apt -h
+  218  apt show gnupg
+  219  apt -h
+  220  apt list gnupg
+  221  history
+  222  apt show pritunl
+  223  apt list pritunl
+  224  apt show gnupg
+  225  apt listgnupg
+  226  apt list gnupg
+  227  apt --help
+  228  man apt
+  229  apt list | wc -l
+  230  apt list --installed
+  231  apt list --installed | wc -l
+  232  apt list | wc -l
+  233  apt list --installed | grep gnupg
+  234  apt list --installed | grep pritunl
+  235  apt list --installed | grep mongo
+  236  apt list --installed
+  237  apt list --installed | grep python
+  238  apt list --installed | grep perl
+  239  apt list --installed | grep perl*
+  240  apt list --installed | grep "perl*"
+  241  apt list --installed | grep ^perl*
+  242  apt list --installed | grep ^m*
+  243  apt list --installed | grep ^mo*
+  244  apt list --installed | grep ^pr*
+  245  apt list --installed | grep ^pri*
+  246  apt list --installed | grep ^mo*
+  247  apt list --installed | grep ^pri*
+  248  apt list --installed | grep ^mo*
+  249  apt list | grep ^mong*
+  250  apt list | grep ^mongo*
+  251  apt-key list
+  252  sudo wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
+  253  apt-key list
+  254  sudo echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+  255  sudo apt update && sudo apt install -y pritunl mongodb-org
+  256  ufw status
+  257  sudo ufw status
+  258  apt list --installed | grep ^pri*
+  259  apt list --installed | grep ^mongo*
+  260  systemctl status pritunl mongodb
+  261  systemctl status pritunl
+  262  systemctl status mongodb
+  263  systemctl status mongod
+  264  systemctl status pritunl
+  265  systemctl status pritunl mongod
+  266  systemctl enable pritunl mongod
+  267  sudo systemctl enable pritunl mongod
+  268  sudo start mongod pritunl
+  269  sudo systemctl start mongod pritunl
+  270  sudo systemctl status mongod pritunl
+  271  ip a
+  272  sudo pritunl setup-key
+  273  sudo pritunl default-password
+  274  sudo poweroff
+  275  ip a
+  276  sudo -s
+  277  history | grep sudo
+  278  history | grep sudo | less
+  279  ll
+  280  history | grep sudo > history_sudo_02january2024.txt
+  281  history | grep sudo
+  282  history | grep pritunl
+  283  history | grep pritunl > history_pritunl_02january2024.txt
+  284  ll
+  285  history | grep mongod
+  286  history | grep mongo > history_mongod_02january2024.txt
+  287  ll
+  288  ip a
+  289  ss --help
+  290  ss --help | less
+  291  ss -lt
+  292  ss -ltn
+  293  ss -ltp
+  294  ss --help | less
+  295  ss -ltpn
+  296  ss -ltn
+  297  ss --help | less
+  298  ss -ltnp
+  299  ss --help | less
+  300  ss -ltp
+  301  ss -ltpn
+  302  ss -ltpne
+  303  ss -ltpna
+  304  ss -ltpnr
+  305  exit
+  306  last reboot
+  307  ll
+  308  history
+  309  ll
+  310  cat setupvpn.sh 
+  311  history > history_raskin_02january2024.txt

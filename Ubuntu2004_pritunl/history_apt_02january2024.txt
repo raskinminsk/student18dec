@@ -1,0 +1,46 @@
+  160  apt install dump
+  161  apt-get search dump
+  206  apt-key -h
+  207  apt-key --help
+  217  apt -h
+  218  apt show gnupg
+  219  apt -h
+  220  apt list gnupg
+  222  apt show pritunl
+  223  apt list pritunl
+  224  apt show gnupg
+  225  apt listgnupg
+  226  apt list gnupg
+  227  apt --help
+  228  man apt
+  229  apt list | wc -l
+  230  apt list --installed
+  231  apt list --installed | wc -l
+  232  apt list | wc -l
+  233  apt list --installed | grep gnupg
+  234  apt list --installed | grep pritunl
+  235  apt list --installed | grep mongo
+  236  apt list --installed
+  237  apt list --installed | grep python
+  238  apt list --installed | grep perl
+  239  apt list --installed | grep perl*
+  240  apt list --installed | grep "perl*"
+  241  apt list --installed | grep ^perl*
+  242  apt list --installed | grep ^m*
+  243  apt list --installed | grep ^mo*
+  244  apt list --installed | grep ^pr*
+  245  apt list --installed | grep ^pri*
+  246  apt list --installed | grep ^mo*
+  247  apt list --installed | grep ^pri*
+  248  apt list --installed | grep ^mo*
+  249  apt list | grep ^mong*
+  250  apt list | grep ^mongo*
+  251  apt-key list
+  252  sudo wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
+  253  apt-key list
+  254  sudo echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+  255  sudo apt update && sudo apt install -y pritunl mongodb-org
+  258  apt list --installed | grep ^pri*
+  259  apt list --installed | grep ^mongo*
+  314  history | grep apt
+  316  history | grep apt > history_apt_02january2024.txt

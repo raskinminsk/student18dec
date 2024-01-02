@@ -1,0 +1,21 @@
+  212  wget -O https://iphwiki.net/files/pritunl_ubuntu20.04_install.sh
+  213  wget https://iphwiki.net/files/pritunl_ubuntu20.04_install.sh
+  215  more pritunl_ubuntu20.04_install.sh
+  216  rm pritunl_ubuntu20.04_install.sh
+  222  apt show pritunl
+  223  apt list pritunl
+  234  apt list --installed | grep pritunl
+  255  sudo apt update && sudo apt install -y pritunl mongodb-org
+  260  systemctl status pritunl mongodb
+  261  systemctl status pritunl
+  264  systemctl status pritunl
+  265  systemctl status pritunl mongod
+  266  systemctl enable pritunl mongod
+  267  sudo systemctl enable pritunl mongod
+  268  sudo start mongod pritunl
+  269  sudo systemctl start mongod pritunl
+  270  sudo systemctl status mongod pritunl
+  272  sudo pritunl setup-key
+  273  sudo pritunl default-password
+  282  history | grep pritunl
+  283  history | grep pritunl > history_pritunl_02january2024.txt
