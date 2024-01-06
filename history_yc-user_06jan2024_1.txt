@@ -1,0 +1,52 @@
+    1  ssh-add -L
+    2  id
+    3  ll
+    4  id
+    5  ll .ssh/
+    6  cat .ssh/authorized_keys 
+    7  hostname
+    8  sudo apt update
+    9  sudo apt install -y ruby-full ruby-bundler build-essential
+   10  ruby -v
+   11  bundler -v
+   12  sudo apt update
+   13  sudo apt install mongodb -y
+   14  systemctl status mongodb
+   15  sudo systemctl start mongodb
+   16  sudo systemctl enable mongod
+   17  sudo systemctl enable mongodb
+   18  systemctl status mongodb
+   19  ll
+   20  id
+   21  history > history_yc-user_06jan2024.txt
+   22  ll
+   23  git --version
+   24  exit
+   25  ll
+   26  ll .ssh/
+   27  exit
+   28  id
+   29  exit
+   30  id
+   31  w
+   32  sudo apt update
+   33  sudo apt install git -y
+   34  git --version
+   35  ll
+   36  git clone -b monolith https://github.com/express42/reddit.git
+   37  ll
+   38  cd reddit/
+   39  ll
+   40  history | grep bundle
+   41  cat README.md 
+   42  bundle install
+   43  bundler -v
+   44  puma -d
+   45  ps aux | grep puma
+   46  ip a
+   47  ll
+   48  pwd
+   49  git branch
+   50  cd ..
+   51  ll
+   52  history > history_yc-user_06jan2024_1.txt

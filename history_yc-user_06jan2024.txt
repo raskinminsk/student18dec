@@ -1,0 +1,21 @@
+    1  ssh-add -L
+    2  id
+    3  ll
+    4  id
+    5  ll .ssh/
+    6  cat .ssh/authorized_keys 
+    7  hostname
+    8  sudo apt update
+    9  sudo apt install -y ruby-full ruby-bundler build-essential
+   10  ruby -v
+   11  bundler -v
+   12  sudo apt update
+   13  sudo apt install mongodb -y
+   14  systemctl status mongodb
+   15  sudo systemctl start mongodb
+   16  sudo systemctl enable mongod
+   17  sudo systemctl enable mongodb
+   18  systemctl status mongodb
+   19  ll
+   20  id
+   21  history > history_yc-user_06jan2024.txt
